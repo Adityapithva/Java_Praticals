@@ -7,7 +7,7 @@ class Sample{
 }
 public class Pratical_9 {
     public static void main(String[] args) {
-        Sample.add(10, 20);
+        Sample.add(10, 10);
         System.out.println(Sample.a + Sample.b);
     }
 }

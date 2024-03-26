@@ -1,11 +1,11 @@
-import java.util.Scanner;
-public class Pratical_5 {
+import java.util.*;
+public class Pratical_5{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter value of N:");
-        int n = sc.nextInt();
+        Scanner sc = new Scanner(System.in); 
         int count = 0;
         int num = 2;
+        System.out.print("Enter value of N:");
+        int n = sc.nextInt();
         System.out.println("First "+n+" prime numbers are:");
         while(count < n){
             boolean prime = true;
