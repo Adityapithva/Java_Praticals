@@ -1,7 +1,6 @@
 public class Pratical_13 {
     public static void main(String[] args) {
-        String str = "I am Aditya Pithva";
-        char arr[] = str.toCharArray();
+        String str = "I am Aditya Pithva"; 
         char ch = str.charAt(2);
         System.out.println("Character at index 2:"+ch);
         System.out.println(str.contains("am"));
