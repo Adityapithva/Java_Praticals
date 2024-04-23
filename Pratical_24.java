@@ -9,7 +9,7 @@ class Bank{
     int balance = 25000;
     public void withdraw(int amount) throws InSufficientAmount{
         if(amount > balance){
-            throw new InSufficientAmount("Requested amount no available");
+            throw new InSufficientAmount("Requested amount not available");
         }else{
             balance-=amount;
         }
