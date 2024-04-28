@@ -11,7 +11,7 @@ public class Pratical_26 extends Thread{
                         System.out.println("Thread 2:" +i);
                     }
                 }
-            }
+            }   
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
